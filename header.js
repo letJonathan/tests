@@ -1,7 +1,7 @@
 const header = () => {
 	return `<header>
 		Header
-		<a href="${ RUTA.base + 'biografia.html' }">LINK CON RUTA</a>
+		<a href="${ ruta('biografia.html') }">LINK CON RUTA</a>
 	</header>`
 }
 
